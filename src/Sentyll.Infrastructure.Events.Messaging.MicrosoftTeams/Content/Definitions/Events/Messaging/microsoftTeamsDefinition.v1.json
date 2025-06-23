@@ -1,0 +1,25 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Microsoft Teams Channel",
+    "icon": "/images/notifications/ms-teams.png",
+    "notificationType": 1
+  },
+  "restContent": {
+    "message": {
+      "uri": ""
+    }
+  },
+  "restContentMeta": {
+    "message": {
+      "uri": {
+        "formType": "password",
+        "displayName": "Slack endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

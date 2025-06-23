@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+        <PackageReference Include="LinqKit" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common\Sentyll.Domain.Common.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Sqlite\Sentyll.Domain.Data.Sqlite.csproj" />
+    </ItemGroup>
+    
+</Project>

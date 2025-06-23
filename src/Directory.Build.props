@@ -1,0 +1,13 @@
+<Project>
+
+  <!-- Applies to all projects in the solution unless overridden inside a target csproj file -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+<!--    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>-->
+  </PropertyGroup>
+
+</Project>

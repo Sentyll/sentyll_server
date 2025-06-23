@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Http" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Infrastructure.Events.WebHooks.Abstractions\Sentyll.Infrastructure.Events.WebHooks.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Core.Services\Sentyll.Core.Services.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Common\Sentyll.Domain.Common.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Abstractions\Sentyll.Domain.Data.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services\Sentyll.Domain.Data.Services.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Sqlite\Sentyll.Domain.Data.Sqlite.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Events.Messaging\Sentyll.Infrastructure.Events.Messaging.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Events.WebHooks\Sentyll.Infrastructure.Events.WebHooks.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks\Sentyll.Infrastructure.HealthChecks.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Abstractions\Sentyll.Infrastructure.Server.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Scheduler\Sentyll.Infrastructure.Server.Scheduler.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.TaskPipeline\Sentyll.Infrastructure.Server.TaskPipeline.csproj" />
+    </ItemGroup>
+    
+</Project>

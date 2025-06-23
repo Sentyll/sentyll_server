@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="LinqKit" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Core.Services.Abstractions\Sentyll.Core.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Abstractions\Sentyll.Domain.Data.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Abstractions\Sentyll.Infrastructure.Server.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

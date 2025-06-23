@@ -1,0 +1,47 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure KeyVault",
+    "icon": "/images/health-checks/azure-keyvault.png",
+    "healthCheckType": 3,
+    "healthCheckCategory": 2
+  },
+  "restContent": {
+    "healthCheck": {
+      "uri": "",
+      "certificates": "",
+      "keys": "",
+      "secrets": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "uri": {
+        "formType": "url",
+        "displayName": "Azure KeyVault uri",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "certificates": {
+        "formType": "tags",
+        "displayName": "Certificates",
+        "defaultValue": null,
+        "rules": []
+      },
+      "keys": {
+        "formType": "tags",
+        "displayName": "Keys",
+        "defaultValue": null,
+        "rules": []
+      },
+      "secrets": {
+        "formType": "tags",
+        "displayName": "Secrets",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

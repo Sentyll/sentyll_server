@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+    <ItemGroup>
+      <PackageReference Include="Asp.Versioning.Mvc" />
+      <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Swashbuckle.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+       <ProjectReference Include="..\Sentyll.Core.Services.Abstractions\Sentyll.Core.Services.Abstractions.csproj" />
+       <ProjectReference Include="..\Sentyll.Domain.Common\Sentyll.Domain.Common.csproj" />
+       <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+       <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+       <ProjectReference Include="..\Sentyll.Infrastructure.Server\Sentyll.Infrastructure.Server.csproj" />
+    </ItemGroup>
+
+</Project>

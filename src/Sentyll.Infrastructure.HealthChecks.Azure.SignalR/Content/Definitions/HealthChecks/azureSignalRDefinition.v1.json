@@ -1,0 +1,26 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure SignalR Hub Endpoint",
+    "icon": "/images/health-checks/azure-signalr.png",
+    "healthCheckType": 4,
+    "healthCheckCategory": 3
+  },
+  "restContent": {
+    "healthCheck": {
+      "uri": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "uri": {
+        "formType": "url",
+        "displayName": "SignalR Hub Endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

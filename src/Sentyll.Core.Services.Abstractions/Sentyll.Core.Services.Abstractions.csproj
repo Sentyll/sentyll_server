@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common.Abstractions\Sentyll.Domain.Common.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Common\Sentyll.Domain.Common.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

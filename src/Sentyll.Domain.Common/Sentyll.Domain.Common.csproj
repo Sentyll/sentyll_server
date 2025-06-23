@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common.Abstractions\Sentyll.Domain.Common.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Abstractions\Sentyll.Domain.Data.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\ApiResponses\" />
+    </ItemGroup>
+
+</Project>

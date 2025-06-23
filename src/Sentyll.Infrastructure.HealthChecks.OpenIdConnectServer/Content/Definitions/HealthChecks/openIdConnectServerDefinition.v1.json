@@ -1,0 +1,44 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "OpenId Connect Server",
+    "icon": "/images/health-checks/open-id-connect.png",
+    "healthCheckType": 11,
+    "healthCheckCategory": 1
+  },
+  "restContent": {
+    "healthCheck": {
+      "idSvrUri": "",
+      "discoveryConfigSegment": "",
+      "dynamicOpenIdProvider": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "idSvrUri": {
+        "formType": "url",
+        "displayName": "OpenID Connect Server HTTP endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "discoveryConfigSegment": {
+        "formType": "text",
+        "displayName": "Identity Server discover configuration segment",
+        "defaultValue": ".well-known/openid-configuration",
+        "rules": [
+          "required"
+        ]
+      },
+      "dynamicOpenIdProvider": {
+        "formType": "checkbox",
+        "displayName": "Is dynamic OpenId Provider",
+        "defaultValue": true,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Sentyll.Infrastructure.Events.Messaging.Abstractions\Sentyll.Infrastructure.Events.Messaging.Abstractions.csproj" />
+    <ProjectReference Include="..\Sentyll.Infrastructure.Events.WebHooks.Abstractions\Sentyll.Infrastructure.Events.WebHooks.Abstractions.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Content\Definitions\Events\Messaging\microsoftTeamsDefinition.v1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+</Project>

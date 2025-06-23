@@ -1,0 +1,26 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Redis",
+    "icon": "/images/health-checks/redis.png",
+    "healthCheckType": 5,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Redis Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

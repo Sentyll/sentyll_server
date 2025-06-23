@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "RabbitMq",
+    "icon": "/images/health-checks/rabbit-mq.png",
+    "healthCheckType": 16,
+    "healthCheckCategory": 7
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionUri": null,
+      "connectionTimeout": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionUri": {
+        "formType": "url",
+        "displayName": "Connection String Endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "connectionTimeout": {
+        "formType": "timespan",
+        "displayName": "Connection Timeout",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

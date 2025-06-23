@@ -1,0 +1,42 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Function App (http endpoint)",
+    "icon": "/images/health-checks/azure-function-app.png",
+    "healthCheckType": 2,
+    "healthCheckCategory": 6
+  },
+  "restContent": {
+    "healthCheck": {
+      "uri": "",
+      "xFunctionKey": "",
+      "headers": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "uri": {
+        "formType": "url",
+        "displayName": "HTTP API Endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "xFunctionKey": {
+        "formType": "password",
+        "displayName": "Function App Admin Security Key",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "headers": {
+        "formType": "header-tags",
+        "displayName": "Custom Headers (optional)",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

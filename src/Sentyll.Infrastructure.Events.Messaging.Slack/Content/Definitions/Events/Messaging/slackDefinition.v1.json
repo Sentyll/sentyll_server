@@ -1,0 +1,25 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Slack",
+    "icon": "/images/notifications/azure-email.png",
+    "notificationType": 0
+  },
+  "restContent": {
+    "message": {
+      "uri": ""
+    }
+  },
+  "restContentMeta": {
+    "message": {
+      "uri": {
+        "formType": "password",
+        "displayName": "Slack endpoint",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Communication Email Services",
+    "icon": "/images/notifications/azure-email.png",
+    "notificationType": 0
+  },
+  "restContent": {
+    "message": {
+      "connectionString": "",
+      "senderAddress": "",
+      "recipientAddresses": []
+    }
+  },
+  "restContentMeta": {
+    "message": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "senderAddress": {
+        "formType": "email",
+        "displayName": "Sender Address",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "recipientAddresses": {
+        "formType": "email",
+        "displayName": "Recipients",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

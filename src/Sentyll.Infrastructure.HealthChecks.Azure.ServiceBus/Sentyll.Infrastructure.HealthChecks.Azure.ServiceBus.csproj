@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Messaging.ServiceBus" />
+        <PackageReference Include="Azure.Identity" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+        <ProjectReference Include="..\Sentyll.Infrastructure.Server.Scheduler.Abstractions\Sentyll.Infrastructure.Server.Scheduler.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Content\Definitions\HealthChecks\azureServiceBusQueueMessageCountThresholdDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Content\Definitions\HealthChecks\azureServiceBussQueueDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Content\Definitions\HealthChecks\azureServiceBusSubscriptionDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Content\Definitions\HealthChecks\azureServiceBusTopicDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Security.KeyVault.Certificates" />
+        <PackageReference Include="Azure.Security.KeyVault.Keys" />
+        <PackageReference Include="Azure.Security.KeyVault.Secrets" />
+        <PackageReference Include="Azure.Identity" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+        <ProjectReference Include="..\Sentyll.Infrastructure.Server.Scheduler.Abstractions\Sentyll.Infrastructure.Server.Scheduler.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Content\Definitions\HealthChecks\azureKeyVaultDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    
+</Project>

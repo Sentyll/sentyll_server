@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <ItemGroup>
+    <PackageReference Include="Azure.Communication.Email" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Sentyll.Infrastructure.Events.Messaging.Abstractions\Sentyll.Infrastructure.Events.Messaging.Abstractions.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Content\Definitions\Events\Messaging\azureCommunicationEmailer.v1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

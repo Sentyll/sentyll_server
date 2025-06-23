@@ -1,0 +1,26 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "NPQ SQL Database",
+    "icon": "/images/health-checks/npq-sql.png",
+    "healthCheckType": 17,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "NPQ Database Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

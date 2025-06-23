@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "HTTP Endpoint (ping)",
+    "icon": "/images/health-checks/rest-api.png",
+    "healthCheckType": 7,
+    "healthCheckCategory": 3
+  },
+  "restContent": {
+    "healthCheck": {
+      "uri": "",
+      "headers": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "uri": {
+        "formType": "url",
+        "displayName": "Uri",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "headers": {
+        "formType": "header-tags",
+        "displayName": "Custom Headers (optional)",
+        "defaultValue": [],
+        "rules": []
+      }
+    }
+  }
+}

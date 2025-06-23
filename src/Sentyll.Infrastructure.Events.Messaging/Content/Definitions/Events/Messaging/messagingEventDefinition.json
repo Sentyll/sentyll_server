@@ -1,0 +1,39 @@
+﻿{
+  "schema": "Sentyll-server-events-messaging-scheme@2025",
+  "restContent": {
+    "id": null,
+    "type": null,
+    "name": "",
+    "description": null
+  },
+  "restContentMeta": {
+    "id": {
+      "formType": "number",
+      "displayName": null,
+      "defaultValue": null,
+      "rules": []
+    },
+    "type": {
+      "formType": "number",
+      "displayName": "Health Check Type",
+      "defaultValue": null,
+      "rules": [
+        "required"
+      ]
+    },
+    "name": {
+      "formType": "text",
+      "displayName": "Name",
+      "defaultValue": null,
+      "rules": [
+        "required"
+      ]
+    },
+    "description": {
+      "formType": "text",
+      "displayName": "Description",
+      "defaultValue": null,
+      "rules": []
+    }
+  }
+}

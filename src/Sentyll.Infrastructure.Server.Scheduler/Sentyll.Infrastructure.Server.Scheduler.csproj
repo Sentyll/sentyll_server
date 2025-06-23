@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Data.Services.Abstractions\Sentyll.Domain.Data.Services.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Abstractions\Sentyll.Infrastructure.Server.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Scheduler.Abstractions\Sentyll.Infrastructure.Server.Scheduler.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

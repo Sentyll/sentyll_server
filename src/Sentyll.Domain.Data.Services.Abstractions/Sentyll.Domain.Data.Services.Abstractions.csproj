@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common.Abstractions\Sentyll.Domain.Common.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Domain.Data.Abstractions\Sentyll.Domain.Data.Abstractions.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Failures\ScheduleJobFailures.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\QueryResults\" />
+    </ItemGroup>
+
+</Project>

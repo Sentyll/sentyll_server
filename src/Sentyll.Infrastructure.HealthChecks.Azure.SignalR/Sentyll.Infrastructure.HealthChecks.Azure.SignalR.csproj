@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Update="Content\Definitions\HealthChecks\azureSignalRDefinition.v1.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

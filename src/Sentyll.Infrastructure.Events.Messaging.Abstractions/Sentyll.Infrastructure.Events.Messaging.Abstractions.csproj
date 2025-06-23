@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common.Abstractions\Sentyll.Domain.Common.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.TaskPipeline.Abstraction\Sentyll.Infrastructure.Server.TaskPipeline.Abstraction.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>Sentyll.Infrastructure.Events.Messaging</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Sql Server Database",
+    "icon": "/images/health-checks/sql-server.png",
+    "healthCheckType": 0,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Sql Server Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

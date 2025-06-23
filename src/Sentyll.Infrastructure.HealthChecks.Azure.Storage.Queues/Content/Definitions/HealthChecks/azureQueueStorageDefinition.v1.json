@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Storage Queue",
+    "icon": "/images/health-checks/azure-queue-storage.png",
+    "healthCheckType": 8,
+    "healthCheckCategory": 7
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": "",
+      "queueName": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Azure Storage Account Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "queueName": {
+        "formType": "text",
+        "displayName": "Azure Queue Name",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

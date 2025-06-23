@@ -1,0 +1,42 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "NPQ SQL Database Query",
+    "icon": "/images/health-checks/sql-server.png",
+    "healthCheckType": 1,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": "",
+      "query": "",
+      "expectedJson": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Sql Server Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "query": {
+        "formType": "text",
+        "displayName": "Sql Server database Query",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "expectedJson": {
+        "formType": "json",
+        "displayName": "Expected Json",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

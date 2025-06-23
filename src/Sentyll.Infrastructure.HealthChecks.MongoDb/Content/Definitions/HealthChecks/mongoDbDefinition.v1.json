@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Mongo Database",
+    "icon": "/images/health-checks/mongo-db.png",
+    "healthCheckType": 19,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": "",
+      "databaseName": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "MongoDb Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "databaseName": {
+        "formType": "text",
+        "displayName": "Target Database name",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

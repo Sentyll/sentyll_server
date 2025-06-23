@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sentyll.Domain.Common.Abstractions\Sentyll.Domain.Common.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Abstractions\Sentyll.Infrastructure.HealthChecks.Abstractions.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.ApplicationInsights\Sentyll.Infrastructure.HealthChecks.Azure.ApplicationInsights.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.Compute.FunctionApp\Sentyll.Infrastructure.HealthChecks.Azure.Compute.FunctionApp.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.KeyVault\Sentyll.Infrastructure.HealthChecks.Azure.KeyVault.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.ServiceBus\Sentyll.Infrastructure.HealthChecks.Azure.ServiceBus.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.SignalR\Sentyll.Infrastructure.HealthChecks.Azure.SignalR.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Blobs\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Blobs.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Files.Shares\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Files.Shares.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Queues\Sentyll.Infrastructure.HealthChecks.Azure.Storage.Queues.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.MongoDb\Sentyll.Infrastructure.HealthChecks.MongoDb.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.NpgSql\Sentyll.Infrastructure.HealthChecks.NpgSql.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.OpenIdConnectServer\Sentyll.Infrastructure.HealthChecks.OpenIdConnectServer.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Rabbitmq\Sentyll.Infrastructure.HealthChecks.Rabbitmq.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Redis\Sentyll.Infrastructure.HealthChecks.Redis.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.SqlServer\Sentyll.Infrastructure.HealthChecks.SqlServer.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.HealthChecks.Uris\Sentyll.Infrastructure.HealthChecks.Uris.csproj" />
+      <ProjectReference Include="..\Sentyll.Infrastructure.Server.Scheduler.Abstractions\Sentyll.Infrastructure.Server.Scheduler.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

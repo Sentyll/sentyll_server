@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Blob Storage",
+    "icon": "/images/health-checks/azure-blob-storage.png",
+    "healthCheckType": 10,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": "",
+      "containerName": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Azure Storage Account Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "containerName": {
+        "formType": "text",
+        "displayName": "Container Name",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

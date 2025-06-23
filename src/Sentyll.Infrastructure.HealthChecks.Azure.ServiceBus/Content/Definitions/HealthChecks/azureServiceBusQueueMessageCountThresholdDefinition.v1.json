@@ -1,0 +1,98 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Service Bus Queue Message Count Threshold",
+    "icon": "/images/health-checks/azure-service-bus.png",
+    "healthCheckType": 15,
+    "healthCheckCategory": 7
+  },
+  "restContent": {
+    "healthCheck": {
+      "fullyQualifiedNamespace": "",
+      "tenantId": null,
+      "clientId": null,
+      "clientSecret": null,
+      "queueName": "",
+      "activeMessagesUnhealthyThreshold": null,
+      "activeMessagesDegradedThreshold": null,
+      "deadLetterMessagesUnhealthyThreshold": null,
+      "deadLetterMessagesDegradedThreshold": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "fullyQualifiedNamespace": {
+        "formType": "text",
+        "displayName": "Fully Qualified Namespace",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "tenantId": {
+        "formType": "password",
+        "displayName": "Tenant ID",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "clientId": {
+        "formType": "password",
+        "displayName": "Client ID",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "clientSecret": {
+        "formType": "password",
+        "displayName": "Client Secret",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "queueName": {
+        "formType": "text",
+        "displayName": "Azure Queue Name",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "activeMessagesUnhealthyThreshold": {
+        "formType": "number",
+        "displayName": "Active Messages: unhealthy threshold",
+        "defaultValue": 10,
+        "rules": [
+          "required"
+        ]
+      },
+      "activeMessagesDegradedThreshold": {
+        "formType": "number",
+        "displayName": "Active Messages: degraded threshold",
+        "defaultValue": 5,
+        "rules": [
+          "required"
+        ]
+      },
+      "deadLetterMessagesUnhealthyThreshold": {
+        "formType": "number",
+        "displayName": "Dead Letter Messages: unhealthy threshold",
+        "defaultValue": 10,
+        "rules": [
+          "required"
+        ]
+      },
+      "deadLetterMessagesDegradedThreshold": {
+        "formType": "number",
+        "displayName": "Dead Letter Messages: degraded threshold",
+        "defaultValue": 5,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}

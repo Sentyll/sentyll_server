@@ -1,0 +1,48 @@
+﻿{
+  "schema": "Sentyll-server-healthCheckCategories-scheme@2025",
+  "version": 1,
+  "categories": [
+    {
+      "id": 1,
+      "slug": "AUTH",
+      "displayName": "Authorization",
+      "sortOrder": 1
+    },
+    {
+      "id": 2,
+      "slug": "SCRT",
+      "displayName": "Secrets",
+      "sortOrder": 2
+    },
+    {
+      "id": 3,
+      "slug": "HTTP",
+      "displayName": "HTTP",
+      "sortOrder": 3
+    },
+    {
+      "id": 4,
+      "slug": "STRG",
+      "displayName": "Storage",
+      "sortOrder": 4
+    },
+    {
+      "id": 5,
+      "slug": "LOGG",
+      "displayName": "Logging",
+      "sortOrder": 5
+    },
+    {
+      "id": 6,
+      "slug": "CMPT",
+      "displayName": "Computing",
+      "sortOrder": 6
+    },
+    {
+      "id": 7,
+      "slug": "MSGQ",
+      "displayName": "Message Queues",
+      "sortOrder": 7
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure File Share",
+    "icon": "/images/health-checks/azure-file-share.png",
+    "healthCheckType": 9,
+    "healthCheckCategory": 4
+  },
+  "restContent": {
+    "healthCheck": {
+      "connectionString": "",
+      "shareName": null
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "connectionString": {
+        "formType": "password",
+        "displayName": "Azure Storage Account Connection String",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      },
+      "shareName": {
+        "formType": "text",
+        "displayName": "Azure File Share Name",
+        "defaultValue": null,
+        "rules": []
+      }
+    }
+  }
+}

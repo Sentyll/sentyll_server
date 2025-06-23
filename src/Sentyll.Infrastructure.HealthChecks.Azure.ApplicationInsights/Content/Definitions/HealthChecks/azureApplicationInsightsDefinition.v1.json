@@ -1,0 +1,26 @@
+﻿{
+  "version": 1,
+  "meta": {
+    "name": "Azure Application Insights",
+    "icon": "/images/health-checks/azure-application-insights.png",
+    "healthCheckType": 6,
+    "healthCheckCategory": 5
+  },
+  "restContent": {
+    "healthCheck": {
+      "instrumentationKey": ""
+    }
+  },
+  "restContentMeta": {
+    "healthCheck": {
+      "instrumentationKey": {
+        "formType": "password",
+        "displayName": "Azure ApplicationInsights Instrumentation Key",
+        "defaultValue": null,
+        "rules": [
+          "required"
+        ]
+      }
+    }
+  }
+}
